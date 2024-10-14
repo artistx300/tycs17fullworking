@@ -1,0 +1,95 @@
+.reviewSection {
+    margin-top: 30px; /* Space above review section */
+}
+
+.reviewSection form {
+    margin-bottom: 20px; /* Space below form */
+}
+
+.reviewSection textarea {
+    width: 100%; /* Full width of the parent */
+    margin-bottom: 10px; /* Space below the textarea */
+}
+
+.reviewList {
+    border-top: 1px solid #ccc; /* Divider above reviews */
+    padding-top: 10px; /* Space above reviews */
+}
+
+.reviewItem {
+    margin-bottom: 15px; /* Space between reviews */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border around each review */
+    border-radius: 5px;
+}
+
+.reviewActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.spoilerOption {
+    margin-top: 10px;
+}
+
+.spoilerBlur {
+    filter: blur(5px); /* Apply blur effect for spoiler reviews */
+}
+
+.showSpoilerButton {
+    background-color: #f5c518;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.showSpoilerButton:hover {
+    background-color: #e0b614;
+}
+
+.reportButton {
+    background-color: #ff6347;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.reportButton:hover {
+    background-color: #e55337;
+}
+
+.reportCount {
+    margin-left: 10px;
+}
+
+.loginPrompt {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.loginPrompt a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.loginPrompt a:hover {
+    text-decoration: underline;
+}
+
+.deleteButton {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.deleteButton:hover {
+    background-color: #ff7875;
+}

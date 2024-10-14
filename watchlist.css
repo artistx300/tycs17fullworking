@@ -1,0 +1,24 @@
+.watchlist {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchlist__button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.watchlist__button.active {
+    background-color:  #007bff; /* Green for watched or to watch */
+    color: white;
+}
+
+.watchlist__button:not(.active) {
+    background-color:#28a745; /* Default blue color */
+    color: white;
+}

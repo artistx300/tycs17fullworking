@@ -1,0 +1,41 @@
+.search__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center elements horizontally */
+    padding: 20px;        /* Add some padding to the page */
+}
+
+.search__title {
+    margin-bottom: 20px;  /* Space between title and search bar */
+    font-size: 24px;      /* Title font size */
+}
+
+.search__input {
+    width: 100%;                     /* Full width for the input */
+    max-width: 400px;                /* Limit the max width */
+    padding: 10px;                   /* Padding inside the input */
+    border: 1px solid #ccc;          /* Border styling */
+    border-radius: 25px;             /* Increase border-radius for more curved edges */
+    font-size: 16px;                 /* Font size for the input */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px;             /* Space between the input and movie list */
+}
+
+.search__input:focus {
+    border-color: #007BFF;          /* Change border color on focus */
+    outline: none;                  /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+}
+
+.list__cards {
+    display: flex;                  /* Use flexbox for the movie cards */
+    flex-wrap: wrap;               /* Allow wrapping of cards */
+    justify-content: center;        /* Center the movie cards */
+    gap: 20px;                     /* Space between cards */
+    margin-top: 20px;              /* Space between the search bar and movie list */
+}
+
+.list__title {
+    margin-bottom: 10px;            /* Space between title and cards */
+    font-size: 20px;                /* Font size for the movie list title */
+}

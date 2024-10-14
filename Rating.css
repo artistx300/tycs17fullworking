@@ -1,0 +1,39 @@
+
+.ratingSection {
+    margin-top: 20px; /* Space above the rating section */
+    text-align: center; /* Center the text in the rating section */
+}
+
+.userRatingSection{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.ratingSection h3 {
+    margin-bottom: 10px; /* Space between the title and the emojis */
+}
+
+.emojiRating {
+    display: flex;
+    justify-content: center; /* Center the emojis horizontally */
+    align-items: center; /* Center the emojis vertically */
+    margin-top: 10px; /* Space above the emoji rating section */
+}
+
+.emojiRating:not(.signedIn) {
+    cursor: not-allowed; /* Indicate that emojis are not clickable */
+    opacity: 1; /* Dim the emojis */
+}
+
+.emoji {
+    width: 50px; /* Size of the emoji */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 5px; /* Space between emojis */
+    cursor: pointer;
+    transition: opacity 0.2s ease; /* Smooth opacity transition */
+}
+
+.selected {
+    opacity: 1; /* Fully visible when selected */
+}

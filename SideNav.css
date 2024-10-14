@@ -1,0 +1,49 @@
+.menu-icon {
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  left: 10px; /* Align the menu icon to the left */
+  top: 15px; /* Adjust this value as needed for vertical placement */
+  z-index: 10; /* Ensure the menu icon is above other elements */
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed; /* Keep the sidebar fixed in place */
+  top: 0;
+  left: 0; /* Position the side navigation on the left */
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 20; /* Ensure the sidebar is above other elements */
+}
+
+.side-nav.open {
+  width: 250px;
+}
+
+.side-nav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
